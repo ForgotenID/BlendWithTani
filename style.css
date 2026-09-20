@@ -76,11 +76,7 @@ a {
   justify-content: space-between;
 }
 
-.brand img {
-  width: 165px;
-  height: auto;
-  display: block;
-}
+
 
 nav {
   display: flex;
