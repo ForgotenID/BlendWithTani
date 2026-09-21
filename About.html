@@ -1,1 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Tani | Blend With Tani</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+
+    /* ABOUT PAGE */
+
+    .about-page {
+      width: min(1180px, 90%);
+      margin: 0 auto;
+      padding: 90px 0 120px;
+    }
+
+    .about-hero {
+      display: grid;
+      grid-template-columns: 0.9fr 1.1fr;
+      align-items: center;
+      gap: 90px;
+    }
+
+    .about-photo {
+      position: relative;
+    }
+
+    .about-photo img {
+      width: 100%;
+      max-width: 480px;
+      height: 580px;
+      object-fit: cover;
+      border-radius: 220px 220px 30px 30px;
+      display: block;
+      position: relative;
+      z-index: 2;
+    }
+
+    .photo-shape {
+      position: absolute;
+      width: 100%;
+      max-width: 480px;
+      height: 580px;
+      background: #d9dfc8;
+      border-radius: 220px 220px 30px 30px;
+      top: 25px;
+      left: 25px;
+    }
+
+    .about-content .eyebrow {
+      margin-bottom: 20px;
+    }
+
+    .about-content h1 {
+      font-size: clamp(3.5rem, 6vw, 6rem);
+      margin-bottom: 25px;
+    }
+
+    .about-content h1 em {
+      color: var(--peach);
+      font-style: italic;
+    }
+
+    .about-description {
+      max-width: 560px;
+      color: #596153;
+      font-size: 1.05rem;
+      line-height: 1.9;
+      margin-bottom: 25px;
+    }
+
+    .signature {
+      font-family: "Playfair Display", serif;
+      font-size: 1.8rem;
+      font-style: italic;
+      margin-top: 35px;
+      color: var(--ink);
+    }
+
+    .about-divider {
+      width: 70px;
+      height: 2px;
+      background: var(--peach);
+      margin: 30px 0;
+    }
+
+    .values {
+      margin-top: 120px;
+      text-align: center;
+    }
+
+    .values h2 {
+      margin-bottom: 50px;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .value-card {
+      background: rgba(255, 253, 248, 0.7);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 40px 30px;
+    }
+
+    .value-number {
+      color: var(--peach);
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.15em;
+    }
+
+    .value-card h3 {
+      font-size: 1.7rem;
+      margin: 15px 0;
+    }
+
+    .value-card p {
+      color: #687062;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 800px) {
+
+      .about-hero {
+        grid-template-columns: 1fr;
+        gap: 70px;
+      }
+
+      .about-photo img,
+      .photo-shape {
+        height: 500px;
+      }
+
+      .about-photo img {
+        max-width: 100%;
+      }
+
+      .photo-shape {
+        max-width: 100%;
+      }
+
+      .values-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- NAVIGATION -->
+
+  <header class="site-header">
+
+    <a class="brand" href="index.html">
+
+      <img
+        src="logo.png"
+        alt="Blend With Tani logo"
+      >
+
+      <span class="brand-title">
+        BLEND WITH TANI
+      </span>
+
+    </a>
+
+
+    <nav>
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">
+        About Tani
+      </a>
+
+      <a href="index.html#menu">
+        Menu
+      </a>
+
+      <a href="index.html#ingredients">
+        Ingredients
+      </a>
+
+      <a class="nav-cta" href="index.html#order">
+        Order
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <!-- ABOUT -->
+
+  <main class="about-page">
+
+    <section class="about-hero">
+
+
+      <!-- TANIKA'S PHOTO -->
+
+      <div class="about-photo">
+
+        <div class="photo-shape"></div>
+
+        <img
+          src="IMG_0960.jpeg"
+          alt="Tanika Brown"
+        >
+
+      </div>
+
+
+      <!-- ABOUT TEXT -->
+
+      <div class="about-content">
+
+        <p class="eyebrow">
+          MEET THE FOUNDER
+        </p>
+
+        <h1>
+          Hi, I'm <em>Tani.</em>
+        </h1>
+
+        <div class="about-divider"></div>
+
+        <p class="about-description">
+
+          My name is <strong>Tanika Brown</strong>, but most people
+          know me as Tani. I created <strong>Blend With Tani</strong>
+          with the idea that a smoothie can be more than just a drink —
+          it can be a moment to slow down, refresh, and enjoy something
+          made with care.
+
+        </p>
+
+        <p class="about-description">
+
+          I love bringing together fresh fruits, vegetables, and
+          exciting flavors to create blends that feel both delicious
+          and refreshing. Every smoothie is inspired by my love for
+          creativity, freshness, and making people smile.
+
+        </p>
+
+        <p class="about-description">
+
+          Blend With Tani is my way of sharing that feeling with
+          everyone — one colorful blend at a time.
+
+        </p>
+
+        <p class="signature">
+          — Tanika "Tani" Brown
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- VALUES -->
+
+    <section class="values">
+
+      <p class="eyebrow">
+        THE TANI WAY
+      </p>
+
+      <h2>
+        Freshness with <em>personality.</em>
+      </h2>
+
+
+      <div class="values-grid">
+
+
+        <div class="value-card">
+
+          <span class="value-number">
+            01
+          </span>
+
+          <h3>
+            Fresh
+          </h3>
+
+          <p>
+            Colorful fruits and vegetables come together
+            to create fresh and flavorful combinations.
+          </p>
+
+        </div>
+
+
+        <div class="value-card">
+
+          <span class="value-number">
+            02
+          </span>
+
+          <h3>
+            Creative
+          </h3>
+
+          <p>
+            Every blend is an opportunity to mix flavors,
+            textures, and ingredients in a new way.
+          </p>
+
+        </div>
+
+
+        <div class="value-card">
+
+          <span class="value-number">
+            03
+          </span>
+
+          <h3>
+            Made With Care
+          </h3>
+
+          <p>
+            Blend With Tani is about creating something
+            that feels personal, welcoming, and enjoyable.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <div>
+
+      <strong>
+        BLEND WITH TANI
+      </strong>
+
+      <span>
+        Fresh smoothies · Good vibes
+      </span>
+
+    </div>
+
+    <p>
+      © 2026 Blend With Tani. All rights reserved.
+    </p>
+
+  </footer>
+
+
+</body>
+
+</html>
