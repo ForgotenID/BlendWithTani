@@ -500,8 +500,9 @@ h2 em {
 }
 
 .story-image {
-  min-height: 650px;
-
+  height:150px;
+  width: 150px;
+  
   display: grid;
 
   place-items: center;
@@ -511,29 +512,7 @@ h2 em {
   position: relative;
 
   overflow: hidden;
-}
-
-.story-image::before,
-.story-image::after {
-  content: "";
-
-  position: absolute;
-
-  border:
-    1px solid rgba(36, 48, 29, 0.3);
-
-  border-radius: 50%;
-}
-
-.story-image::before {
-  width: 420px;
-  height: 420px;
-}
-
-.story-image::after {
-  width: 300px;
-  height: 300px;
-}
+} 
 
 .blender-shape {
   width: 150px;
