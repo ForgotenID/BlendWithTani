@@ -491,23 +491,26 @@ h2 em {
 
 .story {
   background: #dfe4d5;
-
   display: grid;
-
   grid-template-columns: 1fr 1fr;
-
   min-height: 650px;
+  position: relative;
 }
 
 .imgtani {
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   position: absolute;
   left: 30px;
-  top: 30px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-
+.imgtani img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
 
 .blender-shape {
   width: 150px;
