@@ -499,10 +499,6 @@ h2 em {
   min-height: 650px;
 }
 
-.story {
-  position: relative;
-}
-
 .imgtani {
   width: 90px;
   height: 90px;
@@ -511,11 +507,7 @@ h2 em {
   top: 30px;
 }
 
-.imgtani img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-}
+
 
 .blender-shape {
   width: 150px;
