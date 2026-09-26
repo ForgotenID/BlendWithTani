@@ -499,15 +499,21 @@ h2 em {
   min-height: 650px;
 }
 
+.story {
+  position: relative;
+}
+
 .imgtani {
-  width: 60px !important;
-  height: 60px !important;
-  overflow: hidden;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
 }
 
 .imgtani img {
-  width: 60px !important;
-  height: 60px !important;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
 }
 
