@@ -501,12 +501,14 @@ h2 em {
   width: 200px !important;
   height: 200px !important;
   overflow: hidden;
+  position: left;
 }
 
 .imgtani img {
   width: 200px !important;
   height: 200px !important;
   object-fit: cover;
+  position: left;
 }
 .blender-shape {
   width: 150px;
