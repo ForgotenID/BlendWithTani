@@ -500,14 +500,16 @@ h2 em {
 }
 
 .imgtani {
-  width: 60px;
-  height: 60px;
+  width: 60px !important;
+  height: 60px !important;
+  overflow: hidden;
 }
 
 .imgtani img {
-  width: 60px;
-  height: 60px;
- }
+  width: 60px !important;
+  height: 60px !important;
+  object-fit: cover;
+}
 
 .blender-shape {
   width: 150px;
