@@ -498,20 +498,19 @@ h2 em {
 }
 
 .imgtani {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  left: 30px;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
 }
 
 .imgtani img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
 }
-
 .blender-shape {
   width: 150px;
   height: 190px;
