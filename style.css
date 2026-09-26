@@ -499,12 +499,15 @@ h2 em {
   min-height: 650px;
 }
 
-.story-image {
-  width: 1px;
-  height: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.imgtani {
+  width: 60px;
+  height: 60px;
+}
+
+.imgtani img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
 .blender-shape {
