@@ -507,8 +507,7 @@ h2 em {
 .imgtani img {
   width: 60px;
   height: 60px;
-  object-fit: cover;
-}
+ }
 
 .blender-shape {
   width: 150px;
